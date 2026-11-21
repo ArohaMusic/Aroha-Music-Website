@@ -23,7 +23,7 @@ The site explains Aroha directly as a free, ad-free YouTube Music alternative fo
 
 ## Publish on your public domain
 
-The `dist/` folder is the complete deployable website. It works on ordinary static hosting (Cloudflare Pages, Netlify, a static server). There is no server-side application or account setup to maintain. The supplied `_headers` file is recognized by compatible static hosts; configure equivalent response headers on other hosts. Missing routes should serve `404.html` with HTTP 404, not an SPA fallback.
+The production domain is https://arohamusic.app. The `dist/` folder is the complete deployable website. GitHub Pages publishes it through `.github/workflows/pages.yml` after checks pass on pushes to `main`; pull requests run checks without deploying. The workflow can also be run manually. It works on other static hosting as well. There is no server-side application or account setup to maintain. The supplied `_headers` file is recognized by compatible static hosts. GitHub Pages does not apply this file or support custom response-header configuration; Pages manages its own HTTP response headers. Missing routes should serve `404.html` with HTTP 404, not an SPA fallback.
 
 Before changing hosts or attaching your own domain, update the origin:
 
@@ -34,7 +34,7 @@ python3 scripts/check.py
 
 This updates canonical links, Open Graph images, JSON-LD, sitemap and robots, including the JSON-LD CSP hash. Serve with HTTPS and compression. Use short cache lifetimes for HTML; `_headers` uses one week for assets and one hour for CSS/JS. Filenames are not hashed, so purge hosting caches if you replace an asset in place.
 
-The earlier hosted preview remains private. This repository contains the public website source for GitHub Pages. Pushing source does not enable Pages hosting; configure the deployment and final domain separately. Local hosting settings and capture notes stay outside the public repository. Private hosting requires sign-in and cannot be crawled by search engines. Make the website public or deploy `dist/` to a public host before requesting indexing in Google Search Console or Bing Webmaster Tools. Submit `/sitemap.xml`. SEO metadata and useful content help discovery; no website can guarantee a particular rank.
+The earlier hosted preview remains private. This repository contains the public website source and GitHub Pages workflow. The Pages custom domain is configured in repository settings; DNS is managed separately by the domain registrar. Local hosting settings and capture notes stay outside the public repository. Private hosting requires sign-in and cannot be crawled by search engines. Make the website public or deploy `dist/` to a public host before requesting indexing in Google Search Console or Bing Webmaster Tools. Submit `/sitemap.xml`. SEO metadata and useful content help discovery; no website can guarantee a particular rank.
 
 ## Content and releases
 
