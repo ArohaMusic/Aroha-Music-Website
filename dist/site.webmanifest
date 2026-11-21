@@ -1,0 +1,22 @@
+{
+  "name": "Aroha Music",
+  "short_name": "Aroha",
+  "description": "A free, ad-free YouTube Music alternative for Android.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#101010",
+  "theme_color": "#101010",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

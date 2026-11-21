@@ -1,0 +1,12 @@
+{
+  "name": "aroha-music-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The independent Aroha Music marketing website.",
+  "scripts": {
+    "dev": "python3 scripts/serve.py",
+    "check": "python3 scripts/check.py",
+    "configure-origin": "python3 scripts/configure_origin.py"
+  },
+  "license": "GPL-3.0-or-later"
+}

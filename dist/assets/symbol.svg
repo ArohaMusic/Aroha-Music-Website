@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 100 100">
+  <title>Aroha Music — Vinyl Headset</title>
+  <desc>White headphone arch with mirrored vinyl-record earcups, two groove cutouts per side and deep-red record labels. Transparent background.</desc>
+  <path id="arch" fill="#FFFFFF" d="M18.2 43.8 C15.7 25.1 31.4 9.8 49.8 9.8 C68.2 9.8 83.8 25.1 81.4 43.8 L73.4 39.4 C71.1 26.5 61.5 18.5 49.8 18.5 C38.1 18.5 28.5 26.5 25.8 39.4 Z"/>
+  <g id="left-record">
+    <path id="label" fill="#B51220" d="M43 55.4 C41.9 55.1 40.9 55 39.7 55 C33.5 55 28.3 60 28.3 66.2 C28.3 72.4 33.5 77.4 39.7 77.4 C40.9 77.4 41.9 77.2 43 76.9 Z"/>
+    <path id="earcup" fill="#FFFFFF" fill-rule="evenodd" d="M43 46.3 C43 42 39.5 39.4 34 39.4 C20.4 39.4 10 51.2 10 64.4 C10 77.3 20.7 87.6 33.6 87.6 C39.2 87.6 43 84.9 43 80.3 Z M29.1 44 C18.5 47.9 13.7 56.2 14.2 67.1 C14.3 68.9 16.8 68.8 16.8 67 C16.2 57.1 21 50 30.1 46.5 C31.7 45.9 30.7 43.4 29.1 44 Z M31.1 49.7 C23.9 52.8 19.5 59.5 19.9 67.1 C20 68.8 22.5 68.8 22.5 67 C22.1 60.5 25.9 55 32.1 52.1 C33.6 51.4 32.6 49 31.1 49.7 Z M43 55.4 C41.9 55.1 40.9 55 39.7 55 C33.5 55 28.3 60 28.3 66.2 C28.3 72.4 33.5 77.4 39.7 77.4 C40.9 77.4 41.9 77.2 43 76.9 Z M40.7 66.2 A2.3 2.3 0 1 1 36.1 66.2 A2.3 2.3 0 1 1 40.7 66.2 Z"/>
+  </g>
+  <use href="#left-record" transform="translate(100 0) scale(-1 1)"/>
+</svg>
